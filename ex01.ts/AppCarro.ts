@@ -9,19 +9,19 @@ c2 = new Carro();
 
 // vamos preencher os dados 
 //c1
-c1.ano = 1968;
-c1.modelo = "Fusca"
-c1.placa = "ABC1234"
-c1.ligado = false;
-c1.cor = "preto"
+c1.setAno(1968);
+c1.setModelo("Fusca");
+c1.setPlaca("ABC1234");
+c1.getLigado();
+c1.setCor("preto");
 
 
 //c2
-c1.ano = 2019
-c2.modelo = "tesla"
-c2.placa = "eua2019"
-c2.ligado = false;
-c2.cor = "branco"
+c2.setAno(2019)
+c2.setModelo("tesla");
+c2.setPlaca("eua2019");
+c2.getLigado();
+c2.setCor("branco");
 
 //vamos manipular o carro com suas operações 
 console.log(c1.getInfo());
